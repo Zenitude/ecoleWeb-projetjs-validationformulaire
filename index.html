@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS N° 7 : Validation formulaire</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Inscrivez-vous.</h1>
+
+        <form class="form-inscription">
+    
+            <div class="utilisateur">
+                <label for="nom">Nom d'utilisateur</label>
+                <input type="text" name="nom" id="nom" placeholder="Nom d'utilisateur" minlength="3" maxlength="24">
+                <img src="ressources/check.svg" alt="image check">
+                <span></span>
+            </div>
+            
+            <div class="email">
+                <label for="mail">Votre mail</label>
+                <input type="mail" name="mail" id="mail" placeholder="Votre mail">
+                <img src="ressources/check.svg" alt="image check">
+                <span></span>
+            </div>
+    
+            <div class="motDePasse">
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp" id="mdp" placeholder="Mot de passe">
+                <img src="ressources/check.svg" alt="image check">
+                <span></span>
+                <div class="puissanceMdp"></div>
+            </div>
+    
+            <div class="confirmeMotDePasse">
+                <label for="confirmeMdp">Confirmer le mot de passe</label>
+                <input type="password" name="confirmeMdp" id="confirmeMdp" placeholder="Confirmer">
+                <img src="ressources/check.svg" alt="image check">
+                <span></span>
+            </div>
+    
+            <button type="submit">Création du compte</button>
+        </form>
+
+    </div>
+    
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
