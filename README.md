@@ -6,3 +6,7 @@
     * Conditionnement du mot de passe
     * Confirmation du mot de passe identique au mot de passe précédent
 * Icônes de validation et d'erreur
+
+> Projet Précédent : [Pomodoro](https://github.com/Zenitude/ecoleWeb-projetjs-pomodoro)
+
+> Projet Suivant : [Dégradées linéaires](https://github.com/Zenitude/ecoleWeb-projetjs-degradeeslineaires)
